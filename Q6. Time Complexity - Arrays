@@ -1,0 +1,12 @@
+Q6. Time Complexity - Arrays
+
+What is the time complexity for inserting/deleting at the beginning of the array?
+
+Choose the correct answer from below:
+A) O(1)
+B) O(N)
+C) O(logN)
+D) O(N^2)
+
+Ans: B) O(N)
+Explaination : Insertion and deletion at the beginning of the array is O(N).It consumes O(n) time to find the element you want to delete/insert .As we cannot insert/delete element from an Array.As in order to delete/insert  it, you must shift all elements to the right of it one space to the left. This is also O(n) so the total complexity is linear.
